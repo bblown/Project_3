@@ -3,22 +3,20 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 body {
   margin-top: 120px;
 }
-h2,
-h3 {
-  text-align: center;
+.main_title {
+    font-size: 96px;
+    text-align: center;
 }
-
+ 
 h1 {
-  font-size: 96px;
+    font-size: 96px;
+    text-align: center;
+ 
 }
-
-h2 {
-  font-size: 48px;
-}
-
 h3 {
   font-size: 24px;
   opacity: 0.7;
@@ -27,11 +25,26 @@ h3 {
 .navbar {
   display: flex;
 }
-
 .yoga {
   text-align: left;
   font-size: 48px;
 }
+
+@media (max-width: 576px) {
+.col-md-6 {
+  text-align: center;
+}
+.app_title {
+    text-align: center;
+}
+.main_title {
+    font-size: 48px;
+}
+ 
+}
+
+
+
 p {
   border-radius: 4px;
   font-size: 18px;
